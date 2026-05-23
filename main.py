@@ -1,6 +1,6 @@
 import platform    # For getting the operating system name
 import subprocess  # For executing a shell command
-
+import ansibleip
 with open("ip.txt") as f:
     val = f.read().split('\n')
 
@@ -26,6 +26,6 @@ def main():
             print("ICMP", i, "successful")
         elif (i!=""):
             print("ICMP", i, "not successful")
-
+    ansibleip.ansibleping()
 if __name__ == "__main__":
     main()
