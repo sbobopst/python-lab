@@ -1,0 +1,14 @@
+May 24 10:01:22 server sshd[1234]: Failed password for root from 192.168.1.50 port 22 ssh2
+May 24 10:01:25 server sshd[1234]: Failed password for root from 192.168.1.50 port 22 ssh2
+May 24 10:01:28 server sshd[1235]: Failed password for invalid user admin from 185.234.10.5 port 22 ssh2
+May 24 10:01:30 server sshd[1236]: Failed password for root from 192.168.1.50 port 22 ssh2
+May 24 10:01:35 server sshd[1237]: Failed password for invalid user test from 185.234.10.5 port 22 ssh2
+May 24 10:02:01 server sshd[1238]: failed password for root from 10.0.0.1 port 22 ssh2
+May 24 10:02:01 server sshd[1238]: failed password for root from 10.0.0.2 port 22 ssh2
+May 24 10:02:01 server sshd[1238]: failed password for root from 10.0.0.2 port 22 ssh2
+
+PRINT ME OR NOT!
+
+May 24 10:01:35 server sshd[1237]: User authentication test successful from 185.134.10.5 port 22 ssh2
+
+May 24 10:01:35 server sshd[1237]: Failed password for invalid user test from 185.234.10.5 port 22 ssh2

@@ -32,3 +32,11 @@ These scripts perform the same type of reachability validation, but through Ansi
 - [`scanport.py`](./scanport.py)
  
 This script performs multi-threaded port scanning using Python sockets to identify open ports on target hosts. Targets are loaded from an [](./ip.txt) file, allowing automated scanning first 100 ports of multiple IP addresses.
+
+# Log parser
+**Files:**
+- [`logparser.py`](./logparser.py)
+- [`auth.log`](./auth.log)
+
+This script parses a local authentication log file (auth.log) and extracts only failed login attempts together with the source IP addresses.
+ 
