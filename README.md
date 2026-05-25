@@ -40,3 +40,8 @@ This script performs multi-threaded port scanning using Python sockets to identi
 
 This script parses a local authentication log file (auth.log) and extracts only failed login attempts together with the source IP addresses.
  
+# Backup 
+**Files:**
+- [`backup.py`](./backup.py)
+
+This script automatically creates backup directories from a folder named testfolder every time it is executed. A new backup is generated only if a backup folder with the same name does not already exist. To keep the backup directory clean and organized, the script also automatically removes backups older than 5 minutes. It is designed for simple temporary backup management and automatic cleanup of outdated copies.
